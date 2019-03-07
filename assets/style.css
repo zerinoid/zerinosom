@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900|Roboto');
+
+a, abbr, acronym, address, applet, b, big, blockquote, body, button, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, nav, object, ol, p, pre, q, s, samp, section, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, title, tr, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+
+}
+
+p {
+  color: black !important;
+}
+
+* {
+  font-size: 23px;
+  font-family: Helvetica,Arial,sans-serif;
+  color: #11110e;
+}
+
+.section {
+  border-bottom: gray solid 4px;
+}
+
+.bg {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#sec3 {
+  background-image: url("../midia/geo1.jpg");
+}
+
+#sec2 {
+  background-image: url("../midia/geo2.jpg");
+}
+
+.titulo {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(32, 214, 236);
+  font-weight: 900;
+  font-size: 11vw;
+  background-color: transparent !important;
+}
+
+.container {
+  width: 58%;
+  margin: auto;
+  border-left: white solid 11px;
+  padding-left: 16px;
+  background-color: transparent !important;
+}
+
+.shad {
+  text-shadow: -1px 2px 2px #333333;
+}
+
+.texto {
+  color: black !important;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.texto1 {
+  color: #959595 !important;
+  width: -moz-max-content;
+  width: max-content;
+  font-weight: 500;
+  font-size: 0.7em;
+}
+
+.desc {
+  font-size: 0.65em;
+  max-width: -moz-available;
+  max-width: -webkit-fill-available;
+}
+
+#sli1-1 {
+  background-image: url("../midia/bg3.jpg");
+}
+
+#sli2-1 {
+  background-image: url("../midia/bg4.jpg");
+}
+
+#sli3-1 {
+  background-image: url("../midia/bg2.jpg");
+
+}
+
+#sli3-1 .titulo {
+  font-size: 10vw;
+}
+
+.fullscreen {
+  width: 80%;
+  height: 80%;
+}
+
+.videoContainer {
+  /*position: absolute;*/
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
