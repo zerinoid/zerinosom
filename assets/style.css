@@ -10,7 +10,7 @@ a, abbr, acronym, address, applet, b, big, blockquote, body, button, caption, ci
 }
 
 p {
-  color: black !important;
+  color: black;
 }
 
 * {
@@ -25,7 +25,6 @@ p {
 
 .bg {
   background-size: cover;
-  background-attachment: fixed;
   background-position: center center;
 }
 
@@ -42,7 +41,7 @@ p {
   color: rgba(32, 214, 236);
   font-weight: 900;
   font-size: 11vw;
-  background-color: transparent !important;
+  background-color: transparent;
 }
 
 .container {
@@ -50,7 +49,7 @@ p {
   margin: auto;
   border-left: white solid 11px;
   padding-left: 16px;
-  background-color: transparent !important;
+  background-color: transparent;
 }
 
 .shad {
@@ -58,13 +57,13 @@ p {
 }
 
 .texto {
-  color: black !important;
+  color: black;
   width: -moz-max-content;
   width: max-content;
 }
 
 .texto1 {
-  color: #959595 !important;
+  color: #959595;
   width: -moz-max-content;
   width: max-content;
   font-weight: 500;

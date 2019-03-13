@@ -5,8 +5,16 @@ $(document).ready(function() {
 	});
 
     var color = randomColor({luminosity: 'light', count: 48});
- 	$(".pad").each(function () {
+ 	$(".rback").each(function () {
         var rand = Math.floor(Math.random() * 48) + 1
-        $(this).css("background-color",color[rand]).css("color",color[rand]).css("border-left-color",color[rand]);
+        $(this).css("background-color",color[rand]);
+    });
+    $(".rtext").each(function () {
+        var rand = Math.floor(Math.random() * 48) + 1
+        $(this).css("color",color[rand]);
+    });
+    $(".rborder").each(function () {
+        var rand = Math.floor(Math.random() * 48) + 1
+        $(this).css("border-left-color",color[rand]);
     });
 });
