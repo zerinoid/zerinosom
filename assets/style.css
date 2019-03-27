@@ -9,6 +9,18 @@ a, abbr, acronym, address, applet, b, big, blockquote, body, button, caption, ci
 
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 p {
   color: black;
 }
@@ -16,17 +28,13 @@ p {
 * {
   font-size: 23px;
   font-family: Helvetica,Arial,sans-serif;
-  color: #11110e;
+  color: black;
 }
 
 .section {
   border-bottom: gray solid 4px;
 }
 
-.bg {
-  background-size: cover;
-  background-position: center center;
-}
 
 #sec3 {
   background-image: url("../midia/geo1.jpg");
@@ -36,9 +44,26 @@ p {
   background-image: url("../midia/geo2.jpg");
 }
 
+#sli1-1 {
+  background-image: url("../midia/bg3.jpg");
+}
+
+#sli2-1 {
+  background-image: url("../midia/bg4.jpg");
+}
+
+#sli3-1 {
+  background-image: url("../midia/bg2.jpg");
+
+}
+
+.bg {
+  background-size: cover;
+  background-position: center center;
+}
+
 .titulo {
   font-family: 'Montserrat', sans-serif;
-  color: rgba(32, 214, 236);
   font-weight: 900;
   font-size: 11vw;
   background-color: transparent;
@@ -56,37 +81,30 @@ p {
   text-shadow: -1px 2px 2px #333333;
 }
 
-.texto {
-  color: black;
+.max {
   width: -moz-max-content;
   width: max-content;
 }
 
-.texto1 {
-  color: #959595;
-  width: -moz-max-content;
-  width: max-content;
+.data {
   font-weight: 500;
   font-size: 0.7em;
 }
 
 .desc {
-  font-size: 0.65em;
-  max-width: -moz-available;
-  max-width: -webkit-fill-available;
+  font-size: 0.68em;
+  padding: 2px 0px;
+  margin-top: 4px;
 }
 
-#sli1-1 {
-  background-image: url("../midia/bg3.jpg");
-}
-
-#sli2-1 {
-  background-image: url("../midia/bg4.jpg");
-}
-
-#sli3-1 {
-  background-image: url("../midia/bg2.jpg");
-
+.but {
+  cursor: pointer;
+  margin-top: 4px;
+  margin-right: -2px;
+  font-size: 0.8em;
+  background-color: black;
+  color: white;
+  padding: 6px;
 }
 
 #sli3-1 .titulo {
@@ -110,5 +128,29 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 0;
 }
 
+@media screen and (max-width:649px) {
+  * {
+    font-size: 20px;
+  }
+  .bg {
+    background-position: right;
+  }
+  .container {
+    border-left: white solid 10px;
+  }
+  .titulo {
+    font-size: 13vw;
+  }
+  .max {
+    width: auto;
+  }
+  .fullscreen {
+    height: 25.8%;
+  }
+  .videoContainer {
+/*s*/
+  }
+}
