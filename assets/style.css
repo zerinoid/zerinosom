@@ -31,6 +31,13 @@ p {
   color: black;
 }
 
+#menu {
+    position: fixed;
+    z-index: 47;
+    top: 5px;
+    right: 56px;
+}
+
 .section {
   border-bottom: gray solid 4px;
 }
